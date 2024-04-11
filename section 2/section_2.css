@@ -1,0 +1,58 @@
+.cuadro2 {
+    max-width: 1500px;
+    height: 112px;
+    top: 630px;
+}
+
+.linea {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.minilinea {
+    width: 100%;
+    height: 65px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.ldl1 {
+    height: 80%;
+}
+
+.ldl1 img {
+    margin: 8px 0px;
+}
+
+.ldl2 {
+    height: 100%;
+    font-size: 13px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ldl2 img {
+    height: 35px;
+    
+}
+
+.ldl {
+    height: 100%;
+    font-size: 13px;
+
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
